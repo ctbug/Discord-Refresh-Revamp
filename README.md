@@ -1,3 +1,3 @@
 # Discord-Refresh-Revamp
 Visual Refresh Revamped
-![preview](images/preview.png).
+![preview](images/preview.png)
