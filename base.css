@@ -353,3 +353,26 @@ background-color: #18181b !important;
     background-color: #202022 !important;
     padding: 10px;
 }
+
+.visual-refresh .bottomBar__0f481 {
+    background-color: transparent !important;
+    border: 0px;
+    border-radius: 15px;
+    bottom: var(--space-8);
+    box-shadow: var(--shadow-medium);
+    box-sizing: border-box;
+    left: 0;
+    max-width: 290px;
+    padding: var(--space-4) var(--space-12);
+    right: 0;
+    width: -fit-content 30%;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: var(--button-filled-brand-background);
+    color: var(--button-filled-brand-text);
+           padding: 1% 30%;
+           margin: 0 0% auto 1;
+}
