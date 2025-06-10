@@ -1,0 +1,10 @@
+.visual-refresh .container__37e49 {
+    background: #18181b;
+    box-sizing: border-box;
+    gap: var(--space-xs);
+    height: auto;
+    justify-content: space-between;
+    margin-left: -1px;
+    max-height: var(--custom-rtc-account-height);
+    padding: var(--space-xs);
+}
