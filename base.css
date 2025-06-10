@@ -1,3 +1,6 @@
+/* credits for this part here go to julienraptor01, soursecorst, and moonself on discord */
+
+/* ----------------------------------- X ----------------------------------- */
 
 .typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
   font-size: 0;
@@ -125,7 +128,9 @@
     mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>');
     mask-size: 100%;
     -webkit-mask-size: 100%;
-} 
+}
+
+/* ----------------------------------- X ----------------------------------- */
 
 .contents_c19a55 .messageContent_c19a55, .container_b7e1cb {
   background-color: #121214;
