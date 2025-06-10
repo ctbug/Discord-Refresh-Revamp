@@ -1,0 +1,40 @@
+/* this snippet is NOT mine, it's just a personalized config for my theme, credits to .abbie on discord */
+
+@import url('https://abbie.github.io/discord-css/import.css');
+
+:root {
+    --\\--compact-title-bar: false;
+    --\\--compact-input-box: true;
+    --\\--compact-context-menu: true;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: false;
+    --\\--compact-server-list: true;
+    --\\--hide-nameplates: false;
+    --\\--hide-guild-tags: false;
+    --\\--hide-profile-effects: false;
+    --\\--hide-avatar-decorations: false;
+    --\\--hide-gradient-glow-usernames: false;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: false;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: false;
+    --\\--hide-image-edit-button: false;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: false;
+    --\\--hide-gift-button: false;
+    --\\--hide-help-button: true;
+    --\\--hide-shop-button: false;
+    --\\--hide-nitro-button: true;
+    --\\--hide-nitro-upsells: false;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: false;
+    /* ^ hides quest, hypesquad, active dev, and discriminator badges */
+
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: true;
+    --\\--prevent-sidebar-resizing: false;
+    --\\--fix-minor-icon-misalignments: true;
+}
