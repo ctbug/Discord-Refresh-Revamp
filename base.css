@@ -355,26 +355,32 @@ background-color: #18181b !important;
 }
 
 .visual-refresh .bottomBar__0f481 {
+    color: transparent !important;
     background-color: transparent !important;
     border: 0px;
     border-radius: 15px;
     bottom: var(--space-8);
-    box-shadow: var(--shadow-medium);
     box-sizing: border-box;
     left: 0;
-    max-width: 290px;
-    padding: var(--space-4) var(--space-12);
+    max-width: 390px;
     right: 0;
     width: -fit-content 30%;
     width: -moz-max-content;
     width: max-content;
 }
 
+.pulsingEllipsis__0b5bb {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 0px;
+}
+
 .lookFilled__201d5.colorBrand__201d5 {
     background-color: var(--button-filled-brand-background);
     color: var(--button-filled-brand-text);
-           padding: 1% 30%;
-           margin: 0 0% auto 1;
+    margin: 0 0% auto 1;
 }
 
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
