@@ -446,3 +446,10 @@ background-color: #18181b !important;
 [class*="channelAppLauncher_"] {
   display: none !important;
 }
+
+.visual-refresh .panel__5dec7 {
+    background-color: #18181b;
+    border-bottom: 1px solid var(--border-faint);
+    border-top-left-radius: var(--radius-sm);
+    border-top-right-radius: var(--radius-sm);
+}
