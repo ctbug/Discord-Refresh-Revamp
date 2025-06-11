@@ -386,3 +386,9 @@ background-color: #18181b !important;
     gap: 0;
     padding-bottom: 4px;
 }
+
+.visual-refresh .popout__76f04 {
+    background-color: #1c1c1f;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-medium);
+}
