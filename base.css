@@ -408,3 +408,37 @@ background-color: #18181b !important;
     border: 1px solid #212124;
     border-radius: var(--radius-sm);
 }
+
+.form_f75fb0:has(.channelTextAreaDisabled__74017) {
+  border-top: 0px;
+  height: 45px;
+  background-color: transparent;
+  cursor:not-allowed;
+  .channelTextAreaDisabled__74017.channelTextAreaDisabled__74017 {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    .rightAccessories__74017, .buttons__74017 {display: none;}
+  }
+}
+
+.header__49fc1 {
+  background-color: #18181b;
+    border-radius: 13px 13px 0 0;
+    transition: box-shadow .1s ease-out;
+    word-wrap: break-word;
+}
+
+.footerSeparator__49fc1 {
+    background-color: #18181b;
+    box-shadow: none;
+}
+
+.content__49fc1 {
+    border-radius: 0px 0px 0 0;
+    overflow-x: hidden;
+    padding-left: var(--modal-horizontal-padding);
+    padding-right: var(--modal-horizontal-padding);
+    position: relative;
+    z-index: 0;
+}
