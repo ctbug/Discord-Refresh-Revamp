@@ -442,3 +442,7 @@ background-color: #18181b !important;
     position: relative;
     z-index: 0;
 }
+
+[class*="channelAppLauncher_"] {
+  display: none !important;
+}
