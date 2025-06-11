@@ -141,7 +141,7 @@
   width: fit-content;
   margin: 0;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 14px;
 }
 
 .messageContent_c19a55:empty {
@@ -397,4 +397,14 @@ background-color: #18181b !important;
     background-color: #1c1c1f;
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-medium);
+}
+
+.visual-refresh .channelHeader__35a7e {
+    background-color: #18181b;
+}
+
+.visual-refresh .messageContainer__95796 {
+    background-color: #151518;
+    border: 1px solid #212124;
+    border-radius: var(--radius-sm);
 }
