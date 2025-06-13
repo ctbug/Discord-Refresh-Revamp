@@ -1,0 +1,104 @@
+body {
+   container-name: body;
+}
+
+@property --message-bubbles {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+@container body style(--message-bubbles: on) {
+.contents_c19a55 .messageContent_c19a55, .container_b7e1cb {
+  background-color: #121214;
+  display: inline-block;
+  max-width: 650px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 7px;
+  border-radius: 12px;
+   }
+}
+
+@property --reaction-background {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+@container body style(--reaction-background: on) {
+.reactionInner__23977 {
+  background-color: #5855864b;
+  border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: .125rem .375rem;
+    position: relative;
+   }
+}
+
+/* this snippet below is NOT mine, it's just a personalized config for my theme, credits to .abbie on discord */
+
+@property --abbie-import {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+@container body style(--abbie-import: on) {
+:root {
+    --\\--compact-title-bar: false;
+    --\\--compact-input-box: true;
+    --\\--compact-context-menu: true;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: false;
+    --\\--compact-server-list: true;
+    --\\--hide-nameplates: false;
+    --\\--hide-guild-tags: false;
+    --\\--hide-profile-effects: false;
+    --\\--hide-avatar-decorations: false;
+    --\\--hide-gradient-glow-usernames: false;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: false;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: false;
+    --\\--hide-image-edit-button: false;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: false;
+    --\\--hide-gift-button: false;
+    --\\--hide-help-button: true;
+    --\\--hide-shop-button: false;
+    --\\--hide-nitro-button: true;
+    --\\--hide-nitro-upsells: false;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: false;
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: true;
+    --\\--prevent-sidebar-resizing: false;
+    --\\--fix-minor-icon-misalignments: true;
+   }
+}
+
+@property --user-panel-tweaks {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+@container body style(--user-panel-tweaks: on) {
+.visual-refresh .container__37e49 {
+    background: #18181b;
+    box-sizing: border-box;
+    gap: var(--space-xs);
+    height: auto;
+    justify-content: space-between;
+    margin-left: -1px;
+    max-height: var(--custom-rtc-account-height);
+    padding: var(--space-xs);
+   }
+}
