@@ -132,18 +132,6 @@
 
 /* ----------------------------------- X ----------------------------------- */
 
-.contents_c19a55 .messageContent_c19a55, .container_b7e1cb {
-  background-color: #121214;
-  display: inline-block;
-  max-width: 650px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0;
-  padding: 8px;
-  border-radius: 14px;
-}
-
 .messageContent_c19a55:empty {
   display: none !important;
 }
