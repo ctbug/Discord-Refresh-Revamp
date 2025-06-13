@@ -1,7 +1,7 @@
 /*
   * @name Discord Refresh Revamp
   * @author zzvzs
-  * @version 1.4
+  * @version 1.5
   * @description Revamp of Visual Refresh
   * @authorId 499287211381096458
 */
@@ -22,8 +22,10 @@ also it was specifically created for the default Dark theme,
 @import url(https://raw.githubusercontent.com/ctbug/Discord-Refresh-Revamp/refs/heads/main/base.css);
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* addons (which are recommended, but not necessary */
+/* addons (which are recommended, but not necessary) */
 
+@import url(https://raw.githubusercontent.com/ctbug/Discord-Refresh-Revamp/refs/heads/main/ADDON-MessageBubbles.css);
+@import url(https://raw.githubusercontent.com/ctbug/Discord-Refresh-Revamp/refs/heads/main/ADDON-ReactionsHighlight.css);
 @import url(https://raw.githubusercontent.com/ctbug/Discord-Refresh-Revamp/refs/heads/main/ADDON-abbie-config.css);
 @import url(https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css);
 @import url(https://raw.githubusercontent.com/ctbug/Discord-Refresh-Revamp/refs/heads/main/UserPanelTweaks.css);
